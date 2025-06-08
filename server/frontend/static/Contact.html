@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us - Best Cars Dealership</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+    <div class="container-fluid">
+      <h2 style="padding-right: 5%;">Dealerships</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+              aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="/about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="font-size: larger;" href="/contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contact Info Section -->
+  <div class="card" style="width: 80%; margin: auto; margin-top: 3%; padding: 2%;">
+    <div class="banner">
+      <h1>Contact Us</h1>
+      <p class="details">We're here to help. Get in touch with us using the information below!</p>
+    </div>
+
+    <div class="row">
+      <div class="card" style="width: 40%;">
+        <div class="card-body">
+          <h3 class="title">Visit or Call Us</h3>
+          <p class="details">
+            <strong>Best Cars Dealership</strong><br>
+            456 Auto Drive<br>
+            Motor City, CA 90210<br><br>
+            <strong>Phone:</strong> (555) 123-4567<br>
+            <strong>Email:</strong> support@bestcars.com<br>
+            <strong>Business Hours:</strong><br>
+            Mon – Fri: 9:00 AM – 6:00 PM<br>
+            Sat: 10:00 AM – 4:00 PM<br>
+            Sun: Closed
+          </p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 40%;">
+        <div class="card-body">
+          <h3 class="title">Send Us a Message</h3>
+          <form>
+            <div class="form-group" style="margin-bottom: 10px;">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Your Name">
+            </div>
+            <div class="form-group" style="margin-bottom: 10px;">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Your Email">
+            </div>
+            <div class="form-group" style="margin-bottom: 10px;">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" rows="3" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="margin-top: 10px;">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

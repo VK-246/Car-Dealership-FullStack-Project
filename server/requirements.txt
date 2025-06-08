@@ -1,5 +1,5 @@
 requests
-Django
+django
 Pillow
 gunicorn
 python-dotenv
